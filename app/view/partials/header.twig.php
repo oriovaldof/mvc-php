@@ -1,6 +1,6 @@
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">MVC PHP</a>
+        <a class="navbar-brand" href="{{BASE}}">MVC PHP</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -11,7 +11,7 @@
                     <a class="nav-link" href="{{BASE}}">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{BASE}}categoria/">Categoria</a>
+                    <a class="nav-link" href="{{BASE}}cep/">cep </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{BASE}}quem-somos/">Quem Somos</a>
