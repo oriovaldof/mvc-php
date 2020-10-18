@@ -1,11 +1,10 @@
 <?php
 
 $this->get('/', function(){
-    echo 'Estou na Home 01!!';
-});
-$this->get('/home/', function(){
-    echo 'Estou na Home!!';
+    
+    (new \App\Controller\TesteController)->index();
 });
 $this->get('/about/test', function(){
     echo 'Estou na about test!!';
 });
+$this->get('/Categoria', 'TesteController@seta');

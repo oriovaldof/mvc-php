@@ -2,10 +2,13 @@
 
 namespace App\Controller;
 
-class TesteController
+use App\Core\Controller;
+
+class TesteController extends Controller
 {
-    public function seta()
-    {
-        return $arra = ['oa','sdasd','asdasda'];
+    public function index(){
+        $this->load('home/main',[
+            'nome' => 'Oriweb'
+        ]);
     }
 }
