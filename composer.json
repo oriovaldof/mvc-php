@@ -1,0 +1,11 @@
+{
+    "name": "oriovaldo/mvc-php",
+    "description": "mini framework mvc php 7",
+    "authors": [
+        {
+            "name": "Oriovaldo de Jesus Fialho",
+            "email": "oriovaldof@gmail.com"
+        }
+    ],
+    "require": {}
+}
